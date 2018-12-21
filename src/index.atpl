@@ -1,0 +1,6 @@
+<div class="pull-refresh-wrap J-pull-refresh-wrap">
+  <div class="pull-refresh-inner J-pull-refresh-inner">
+    <div class="pull-refresh-indicator J-pull-refresh-indicator">下拉加载</div>
+    <div class="pull-refresh-content J-pull-refresh-content"></div>
+  </div>
+</div>

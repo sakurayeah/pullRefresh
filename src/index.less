@@ -1,0 +1,32 @@
+.pull-refresh-wrap {
+  height: 100%;
+  width: 100%;
+  padding: 0 12px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  background-size: cover;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  .pull-refresh-inner {
+    margin-top: -24px;
+    transform: translate3d(0px, 0px, 0px);
+    -webkit-transform: translate3d(0px, 0px, 0px);
+  }
+  .pull-refresh-indicator {
+    color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 12px;
+  }
+  .pull-refresh-content {
+    padding-top: 12px;
+  }
+  .pull-refresh-transition {
+    -webkit-transition: transform .5s;
+    transition: transform .5s;
+  }
+}
